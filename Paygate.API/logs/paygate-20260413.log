@@ -1,0 +1,51 @@
+2026-04-13 14:01:05.117 +03:00 [INF] Now listening on: http://localhost:5028
+2026-04-13 14:01:05.149 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 14:01:05.150 +03:00 [INF] Hosting environment: Development
+2026-04-13 14:01:05.151 +03:00 [INF] Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-13 14:01:06.249 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - null null
+2026-04-13 14:01:06.437 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 null text/html;charset=utf-8 188.4144ms
+2026-04-13 14:01:06.835 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/swagger-ui-bundle.js - null null
+2026-04-13 14:01:06.885 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-04-13 14:01:06.888 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 53.8356ms
+2026-04-13 14:01:06.993 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - null null
+2026-04-13 14:01:07.071 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.6028ms
+2026-04-13 14:01:17.629 +03:00 [INF] Application is shutting down...
+2026-04-13 14:33:50.750 +03:00 [INF] Now listening on: http://localhost:5028
+2026-04-13 14:33:50.805 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 14:33:50.806 +03:00 [INF] Hosting environment: Development
+2026-04-13 14:33:50.807 +03:00 [INF] Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-13 14:33:52.151 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - null null
+2026-04-13 14:33:52.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 null text/html;charset=utf-8 201.169ms
+2026-04-13 14:33:53.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - null null
+2026-04-13 14:33:53.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.954ms
+2026-04-13 14:39:36.987 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-13 14:39:37.031 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-13 14:39:37.039 +03:00 [INF] Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-13 14:39:37.079 +03:00 [INF] Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-13 14:39:37.147 +03:00 [INF] Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: "Valid"
+2026-04-13 14:39:37.157 +03:00 [INF] Payment successful...
+2026-04-13 14:39:37.162 +03:00 [INF] Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.7758ms.
+2026-04-13 14:39:37.166 +03:00 [INF] Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-13 14:39:37.179 +03:00 [INF] Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 98.0861ms
+2026-04-13 14:39:37.180 +03:00 [INF] Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-13 14:39:37.180 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 null application/json; charset=utf-8 193.5334ms
+2026-04-13 14:40:02.217 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-13 14:40:02.222 +03:00 [INF] Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-13 14:40:02.237 +03:00 [INF] Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-13 14:40:02.243 +03:00 [INF] Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: "Valid"
+2026-04-13 14:40:02.245 +03:00 [INF] Payment successful...
+2026-04-13 14:40:02.247 +03:00 [INF] Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.1993ms.
+2026-04-13 14:40:02.247 +03:00 [INF] Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-13 14:40:02.250 +03:00 [INF] Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 12.164ms
+2026-04-13 14:40:02.250 +03:00 [INF] Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-13 14:40:02.250 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 null application/json; charset=utf-8 33.5657ms
+2026-04-13 14:40:16.008 +03:00 [INF] Application is shutting down...
+2026-04-13 15:15:23.421 +03:00 [INF] Now listening on: http://localhost:5028
+2026-04-13 15:15:23.446 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 15:15:23.446 +03:00 [INF] Hosting environment: Development
+2026-04-13 15:15:23.446 +03:00 [INF] Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-13 15:15:23.998 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - null null
+2026-04-13 15:15:24.102 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 null text/html;charset=utf-8 106.3391ms
+2026-04-13 15:15:24.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - null null
+2026-04-13 15:15:24.556 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 155.4722ms
+2026-04-13 15:15:35.899 +03:00 [INF] Application is shutting down...

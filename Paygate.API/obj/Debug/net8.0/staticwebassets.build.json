@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4OEYOMaoPvGFLMGWkX18rKkpkKHoY7IcLWUNgCeknVY=",
+  "Source": "Paygate.API",
+  "BasePath": "_content/Paygate.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,98 @@
+2026-04-08 17:29:31.8042|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2026-04-08 17:29:31.8320|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-04-08 17:29:31.8334|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2026-04-08 17:29:31.8334|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-08 17:29:33.7913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - - -
+2026-04-08 17:29:34.0023|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 - text/html;charset=utf-8 212.5566ms
+2026-04-08 17:29:34.5122|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - - -
+2026-04-08 17:29:34.6792|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 167.0572ms
+2026-04-08 17:29:46.8759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-08 17:29:46.8848|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2026-04-08 17:29:46.8870|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:29:46.9186|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-08 17:29:46.9520|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: Valid
+2026-04-08 17:29:46.9594|INFO|Paygate.Application.Payment.Commands.ProcessPaymentCommandHandler|Payment successful...
+2026-04-08 17:29:46.9668|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.2191ms.
+2026-04-08 17:29:46.9705|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-08 17:29:46.9803|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 57.383ms
+2026-04-08 17:29:46.9803|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:29:46.9803|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 - application/json;+charset=utf-8 105.6794ms
+2026-04-08 17:31:14.9269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/3fa85f64-5717-4562-b3fc-2c963f66afa6/cancel - - 0
+2026-04-08 17:31:14.9437|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Paygate.API.Controllers.PaymentController.CancelPayment (Paygate.API)'
+2026-04-08 17:31:14.9747|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CancelPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelPayment(System.Guid) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-08 17:31:14.9798|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Paygate.API.Controllers.PaymentController.CancelPayment (Paygate.API) - Validation state: Valid
+2026-04-08 17:31:14.9904|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Paygate.API.Controllers.PaymentController.CancelPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.5319ms.
+2026-04-08 17:31:14.9913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-08 17:31:14.9988|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Paygate.API.Controllers.PaymentController.CancelPayment (Paygate.API) in 23.9185ms
+2026-04-08 17:31:14.9991|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Paygate.API.Controllers.PaymentController.CancelPayment (Paygate.API)'
+2026-04-08 17:31:14.9991|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/3fa85f64-5717-4562-b3fc-2c963f66afa6/cancel - 200 - application/json;+charset=utf-8 73.1574ms
+2026-04-08 17:32:17.9379|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-08 17:32:17.9493|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:32:17.9609|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-08 17:32:17.9744|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: Valid
+2026-04-08 17:32:17.9761|INFO|Paygate.Application.Payment.Commands.ProcessPaymentCommandHandler|Payment successful...
+2026-04-08 17:32:17.9761|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.8015ms.
+2026-04-08 17:32:17.9761|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-08 17:32:17.9791|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 17.9925ms
+2026-04-08 17:32:17.9791|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:32:17.9791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 - application/json;+charset=utf-8 43.7341ms
+2026-04-08 17:41:35.9561|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2026-04-08 17:41:35.9839|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-04-08 17:41:35.9839|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2026-04-08 17:41:35.9839|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-08 17:41:37.2970|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - - -
+2026-04-08 17:41:37.4098|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 - text/html;charset=utf-8 114.6382ms
+2026-04-08 17:41:37.8226|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - - -
+2026-04-08 17:41:37.9816|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 158.9427ms
+2026-04-08 17:41:42.5684|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-08 17:41:42.5898|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2026-04-08 17:41:42.5926|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:41:42.6109|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-08 17:41:42.6409|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: Valid
+2026-04-08 17:41:42.6474|INFO|Paygate.Application.Payment.Commands.ProcessPaymentCommandHandler|Payment successful...
+2026-04-08 17:41:42.6533|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.8219ms.
+2026-04-08 17:41:42.6565|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-08 17:41:42.6657|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 51.1417ms
+2026-04-08 17:41:42.6657|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:41:42.6659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 - application/json;+charset=utf-8 97.8839ms
+2026-04-08 17:42:53.0009|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2026-04-08 17:43:01.0779|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2026-04-08 17:43:01.0936|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-04-08 17:43:01.0944|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2026-04-08 17:43:01.0944|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-08 17:43:03.3289|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - - -
+2026-04-08 17:43:03.4357|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 - text/html;charset=utf-8 109.2237ms
+2026-04-08 17:43:04.5091|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - - -
+2026-04-08 17:43:04.6020|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 92.8838ms
+2026-04-08 17:43:11.2236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-08 17:43:11.2554|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2026-04-08 17:43:11.2591|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:43:11.3097|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-08 17:43:11.3479|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: Valid
+2026-04-08 17:43:11.3547|INFO|Paygate.Application.Payment.Commands.ProcessPaymentCommandHandler|Payment successful...
+2026-04-08 17:43:11.3610|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.3282ms.
+2026-04-08 17:43:11.3641|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-08 17:43:11.3724|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 58.9972ms
+2026-04-08 17:43:11.3724|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:43:11.3724|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 - application/json;+charset=utf-8 149.5054ms
+2026-04-08 17:44:28.8659|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2026-04-08 17:44:31.4011|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2026-04-08 17:44:31.4150|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-04-08 17:44:31.4150|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2026-04-08 17:44:31.4150|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/mesut/Paygate/Paygate.API/Paygate.API
+2026-04-08 17:44:31.7409|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - - -
+2026-04-08 17:44:31.8152|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 - text/html;charset=utf-8 75.9781ms
+2026-04-08 17:44:32.1419|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - - -
+2026-04-08 17:44:32.2255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 83.4050ms
+2026-04-08 17:44:35.6081|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-08 17:44:35.6295|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2026-04-08 17:44:35.6309|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:44:35.6467|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-08 17:44:35.6929|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: Valid
+2026-04-08 17:44:35.7010|INFO|Paygate.Application.Payment.Commands.ProcessPaymentCommandHandler|Payment successful...
+2026-04-08 17:44:35.7083|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.7557ms.
+2026-04-08 17:44:35.7120|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-08 17:44:35.7204|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 70.3388ms
+2026-04-08 17:44:35.7204|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-08 17:44:35.7204|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 - application/json;+charset=utf-8 112.7618ms
+2026-04-08 17:54:59.0109|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...

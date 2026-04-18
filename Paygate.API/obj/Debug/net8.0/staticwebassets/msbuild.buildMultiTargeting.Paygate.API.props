@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Paygate.API.props" />
+</Project>

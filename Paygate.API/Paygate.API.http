@@ -1,0 +1,6 @@
+@Paygate.API_HostAddress = http://localhost:5028
+
+GET {{Paygate.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
