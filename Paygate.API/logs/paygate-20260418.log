@@ -62,3 +62,31 @@
 2026-04-18 11:33:03.510 +03:00 [INF] Executed action Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API) in 4.7865ms
 2026-04-18 11:33:03.510 +03:00 [INF] Executed endpoint 'Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API)'
 2026-04-18 11:33:03.510 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/api/Payment/23691aeb-b974-4be6-b762-311ab0422e45/status - 200 null application/json; charset=utf-8 16.7213ms
+2026-04-18 11:41:42.476 +03:00 [INF] Now listening on: http://localhost:5028
+2026-04-18 11:41:42.514 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-18 11:41:42.515 +03:00 [INF] Hosting environment: Development
+2026-04-18 11:41:42.515 +03:00 [INF] Content root path: /Users/mesut/Gateonix/Paygate.API
+2026-04-18 11:41:43.089 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/index.html - null null
+2026-04-18 11:41:43.224 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/index.html - 200 null text/html;charset=utf-8 135.9633ms
+2026-04-18 11:41:43.403 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - null null
+2026-04-18 11:41:43.501 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.9877ms
+2026-04-18 11:41:53.650 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/api/Payment/3fa85f64-5717-4562-b3fc-2c963f66afa6/status - null null
+2026-04-18 11:41:53.670 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-18 11:41:53.673 +03:00 [INF] Executing endpoint 'Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API)'
+2026-04-18 11:41:53.706 +03:00 [INF] Route matched with {action = "GetPaymentStatus", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentStatus(System.Guid) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-18 11:41:53.714 +03:00 [INF] Executing action method Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API) - Validation state: "Valid"
+2026-04-18 11:41:53.727 +03:00 [INF] Executed action method Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.3065ms.
+2026-04-18 11:41:53.732 +03:00 [INF] Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentStatusResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-18 11:41:53.771 +03:00 [INF] Executed action Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API) in 62.5251ms
+2026-04-18 11:41:53.771 +03:00 [INF] Executed endpoint 'Paygate.API.Controllers.PaymentController.GetPaymentStatus (Paygate.API)'
+2026-04-18 11:41:53.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/api/Payment/3fa85f64-5717-4562-b3fc-2c963f66afa6/status - 200 null application/json; charset=utf-8 121.6383ms
+2026-04-18 11:41:57.540 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5028/api/Payment/process - application/json 93
+2026-04-18 11:41:57.542 +03:00 [INF] Executing endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-18 11:41:57.547 +03:00 [INF] Route matched with {action = "ProcessPayment", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessPayment(Paygate.Application.Payment.Commands.ProcessPaymentCommand) on controller Paygate.API.Controllers.PaymentController (Paygate.API).
+2026-04-18 11:41:57.605 +03:00 [INF] Executing action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) - Validation state: "Valid"
+2026-04-18 11:41:57.607 +03:00 [INF] Payment successful...
+2026-04-18 11:41:57.608 +03:00 [INF] Executed action method Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.6702ms.
+2026-04-18 11:41:57.609 +03:00 [INF] Executing OkObjectResult, writing value of type 'Paygate.Application.Shared.Results.Result`1[[Paygate.Application.Payment.Dtos.PaymentResponse, Paygate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-18 11:41:57.612 +03:00 [INF] Executed action Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API) in 64.3317ms
+2026-04-18 11:41:57.612 +03:00 [INF] Executed endpoint 'Paygate.API.Controllers.PaymentController.ProcessPayment (Paygate.API)'
+2026-04-18 11:41:57.612 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5028/api/Payment/process - 200 null application/json; charset=utf-8 72.4343ms

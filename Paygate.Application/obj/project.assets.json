@@ -481,11 +481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mesut/Gateonix/Paygate.API/Paygate.Application/Paygate.Application.csproj",
+      "projectUniqueName": "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj",
       "projectName": "Paygate.Application",
-      "projectPath": "/Users/mesut/Gateonix/Paygate.API/Paygate.Application/Paygate.Application.csproj",
+      "projectPath": "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj",
       "packagesPath": "/Users/mesut/.nuget/packages/",
-      "outputPath": "/Users/mesut/Gateonix/Paygate.API/Paygate.Application/obj/",
+      "outputPath": "/Users/mesut/Gateonix/Paygate.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mesut/.nuget/NuGet/NuGet.Config"
@@ -510,9 +510,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -551,7 +550,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/mesut/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

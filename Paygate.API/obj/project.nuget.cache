@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "viqJQo+MRL8=",
+  "dgSpecHash": "kvd2EAkk5XQ=",
   "success": true,
-  "projectFilePath": "/Users/mesut/Gateonix/Paygate.API/Paygate.API/Paygate.API.csproj",
+  "projectFilePath": "/Users/mesut/Gateonix/Paygate.API/Paygate.API.csproj",
   "expectedPackageFiles": [
     "/Users/mesut/.nuget/packages/elasticsearch.net/7.17.5/elasticsearch.net.7.17.5.nupkg.sha512",
     "/Users/mesut/.nuget/packages/mediatr/8.1.0/mediatr.8.1.0.nupkg.sha512",
