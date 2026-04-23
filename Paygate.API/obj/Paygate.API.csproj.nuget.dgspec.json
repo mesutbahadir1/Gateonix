@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mesut/Gateonix/Paygate.API/Paygate.API.csproj": {}
+    "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.API\\Paygate.API.csproj": {}
   },
   "projects": {
-    "/Users/mesut/Gateonix/Paygate.API/Paygate.API.csproj": {
+    "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.API\\Paygate.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mesut/Gateonix/Paygate.API/Paygate.API.csproj",
+        "projectUniqueName": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.API\\Paygate.API.csproj",
         "projectName": "Paygate.API",
-        "projectPath": "/Users/mesut/Gateonix/Paygate.API/Paygate.API.csproj",
-        "packagesPath": "/Users/mesut/.nuget/packages/",
-        "outputPath": "/Users/mesut/Gateonix/Paygate.API/obj/",
+        "projectPath": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.API\\Paygate.API.csproj",
+        "packagesPath": "C:\\Users\\GS_ta\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mesut/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\GS_ta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj": {
-                "projectPath": "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj"
+              "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.Application\\Paygate.Application.csproj": {
+                "projectPath": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.Application\\Paygate.Application.csproj"
               }
             }
           }
@@ -41,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -91,26 +98,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj": {
+    "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.Application\\Paygate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj",
+        "projectUniqueName": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.Application\\Paygate.Application.csproj",
         "projectName": "Paygate.Application",
-        "projectPath": "/Users/mesut/Gateonix/Paygate.Application/Paygate.Application.csproj",
-        "packagesPath": "/Users/mesut/.nuget/packages/",
-        "outputPath": "/Users/mesut/Gateonix/Paygate.Application/obj/",
+        "projectPath": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.Application\\Paygate.Application.csproj",
+        "packagesPath": "C:\\Users\\GS_ta\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\GS_ta\\Documents\\Unity\\Gateonix\\Paygate.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mesut/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\GS_ta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,7 +141,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -167,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

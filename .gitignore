@@ -1,0 +1,85 @@
+# Build outputs
+
+bin/
+obj/
+out/
+publish/
+
+# Logs
+
+*.log
+logs/
+
+# User-specific files
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+
+.vs/
+.vscode/
+.idea/
+
+# Rider
+
+*.sln.iml
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# NuGet
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# .NET Core
+
+*.runtimeconfig.json
+*.deps.json
+
+# Environment variables
+
+.env
+.env.*
+
+
+# Test results
+
+TestResults/
+*.trx
+
+# Coverage
+
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish & artifacts
+
+artifacts/
+
+# Docker
+
+docker-compose.override.yml
+
+# EF Core migrations snapshot (isteğe bağlı)
+
+*Migrations/*Designer.cs
+*Migrations/*.resx
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+
+# Benchmark
+
+BenchmarkDotNet.Artifacts/

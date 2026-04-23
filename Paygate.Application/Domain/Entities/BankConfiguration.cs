@@ -11,7 +11,8 @@ namespace Paygate.Application.Domain.Entities
     {
         public Guid BankId { get; set; }
         public string ApiEndpoint { get; set; }
-        public string ApiKey { get; set; }
-        public string ApiSecret { get; set; }
+        public string ClientId { get; set; }
+        public string StoreKey { get; set; }
+        
     }
 }

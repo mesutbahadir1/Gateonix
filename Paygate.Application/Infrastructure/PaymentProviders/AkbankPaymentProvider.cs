@@ -1,3 +1,5 @@
+using Paygate.Application.Application.Payment.Commands;
+using Paygate.Application.Application.Payment.Dtos;
 using Paygate.Application.Domain.Entities;
 using Paygate.Application.Domain.Enums;
 using Paygate.Application.Domain.Ports;
@@ -52,7 +54,12 @@ public class AkbankPaymentProvider : IPaymentProvider
             };
         }
 
-        public Transaction ProcessPayment(Guid cardId, decimal amount, string currency)
+    public PaymentInitiateResponse Initiate3DPayment(Initiate3DPaymentCommand request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Transaction ProcessPayment(Guid cardId, decimal amount, string currency)
         {
             return new Transaction()
             {

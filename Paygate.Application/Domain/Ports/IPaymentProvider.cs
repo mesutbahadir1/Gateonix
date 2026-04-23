@@ -1,4 +1,6 @@
-﻿using Paygate.Application.Domain.Entities;
+﻿using Paygate.Application.Application.Payment.Commands;
+using Paygate.Application.Application.Payment.Dtos;
+using Paygate.Application.Domain.Entities;
 
 namespace Paygate.Application.Domain.Ports
 {
@@ -12,6 +14,7 @@ namespace Paygate.Application.Domain.Ports
         Transaction ConfirmPayment(Guid transactionId);
         Transaction RefundPayment(Guid transactionId, decimal amount);
         Transaction CancelPayment(Guid transactionId);
+        PaymentInitiateResponse Initiate3DPayment(Initiate3DPaymentCommand request);
 
     }
 }

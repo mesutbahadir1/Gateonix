@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Paygate.Application.Domain.Enums
+{
+    public enum Currency
+    {
+        TRY = 0,
+        EUR = 1,
+        USD = 2
+    }
+}
