@@ -1,5 +1,6 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Paygate.Application.Application.Payment.Commands;
 using Paygate.Application.Application.Payment.Queries;
 using Paygate.Application.Payment.Commands;
 
@@ -45,6 +46,12 @@ public class PaymentController : ControllerBase
 
     [HttpPost("refund")]
     public async Task<IActionResult> RefundPayment([FromBody] RefundPaymentCommand command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+
+    [HttpPost("3d/initiate")]
+    public async Task<IActionResult> Initiate3DPayment([FromBody] Initiate3DPaymentCommand command)
     {
         return Ok(await _mediator.Send(command));
     }

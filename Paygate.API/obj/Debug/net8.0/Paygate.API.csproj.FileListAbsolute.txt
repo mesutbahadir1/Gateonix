@@ -139,7 +139,6 @@
 /Users/mesut/Gateonix/Paygate.API/Paygate.API/obj/Debug/net8.0/Paygate.API.genruntimeconfig.cache
 /Users/mesut/Gateonix/Paygate.API/Paygate.API/obj/Debug/net8.0/ref/Paygate.API.dll
 /Users/mesut/Gateonix/Paygate.API/bin/Debug/net8.0/appsettings.json
-/Users/mesut/Gateonix/Paygate.API/bin/Debug/net8.0/Paygate.API.staticwebassets.endpoints.json
 /Users/mesut/Gateonix/Paygate.API/bin/Debug/net8.0/Paygate.API
 /Users/mesut/Gateonix/Paygate.API/bin/Debug/net8.0/Paygate.API.deps.json
 /Users/mesut/Gateonix/Paygate.API/bin/Debug/net8.0/Paygate.API.runtimeconfig.json
@@ -195,9 +194,7 @@
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/scopedcss/bundle/Paygate.API.styles.css
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets.build.json
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets.development.json
-/Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets/msbuild.Paygate.API.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets/msbuild.Paygate.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets/msbuild.build.Paygate.API.props
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Paygate.API.props
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Paygate.API.props
@@ -208,3 +205,6 @@
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/Paygate.API.pdb
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/Paygate.API.genruntimeconfig.cache
 /Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/ref/Paygate.API.dll
+/Users/mesut/Gateonix/Paygate.API/bin/Debug/net8.0/Paygate.API.staticwebassets.endpoints.json
+/Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/mesut/Gateonix/Paygate.API/obj/Debug/net8.0/staticwebassets/msbuild.Paygate.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
