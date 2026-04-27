@@ -18,7 +18,22 @@ namespace Paygate.Application.Application.Shared
                                 .Select(x => EscapeForHash(x.Value))
                                 .ToList();
 
+
+
             var hashString = string.Join("|", orderedValues) + "|" + EscapeForHash(storeKey);
+
+            using var sha512 = SHA512.Create();
+            var hashBytes = sha512.ComputeHash(Encoding.UTF8.GetBytes(hashString));
+            var hashValue = Convert.ToBase64String(hashBytes);
+
+            return hashValue;
+
+
+
+        }
+        public static string ComputeHashForZiraat(Dictionary<string, string> formParams, string storeKey)
+        {
+            var hashString = string.Join("", [formParams["clientid"], formParams["oid"], formParams["amount"], formParams["okUrl"], formParams["failUrl"], formParams["rnd"], storeKey]);
 
             using var sha512 = SHA512.Create();
             var hashBytes = sha512.ComputeHash(Encoding.UTF8.GetBytes(hashString));

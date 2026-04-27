@@ -22,8 +22,8 @@ namespace Paygate.Application.Infrastructure.PaymentProviders
         public bool IsAvailable => true;
         public BankConfiguration Configuration = new BankConfiguration()
         {
-            ApiEndpoint = "https://entegrasyon.asseco-see.com.tr/fim/est3dgate",
-            ClientId = "700650001",
+            ApiEndpoint = "https://entegrasyon.asseco-see.com.tr/fim/est3Dgate",
+            ClientId = "190100000",
             StoreKey = "123456"
         };
 
@@ -84,7 +84,7 @@ namespace Paygate.Application.Infrastructure.PaymentProviders
                 ["countryName"] = "TR"
             };
 
-            var hash = HashHelper.ComputeHash(formParams, Configuration.StoreKey);
+            var hash =  HashHelper.ComputeHashForZiraat(formParams, Configuration.StoreKey);
             formParams["hash"] = hash;
 
             return new PaymentInitiateResponse

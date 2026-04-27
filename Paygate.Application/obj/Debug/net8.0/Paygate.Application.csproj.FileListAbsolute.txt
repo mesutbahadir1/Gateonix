@@ -37,3 +37,16 @@
 /Users/mesut/Gateonix/Paygate.Application/obj/Debug/net8.0/refint/Paygate.Application.dll
 /Users/mesut/Gateonix/Paygate.Application/obj/Debug/net8.0/Paygate.Application.pdb
 /Users/mesut/Gateonix/Paygate.Application/obj/Debug/net8.0/ref/Paygate.Application.dll
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\bin\Debug\net8.0\Paygate.Application.deps.json
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\bin\Debug\net8.0\Paygate.Application.dll
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\bin\Debug\net8.0\Paygate.Application.pdb
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.csproj.AssemblyReference.cache
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.AssemblyInfoInputs.cache
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.AssemblyInfo.cs
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.csproj.CoreCompileInputs.cache
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.sourcelink.json
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.dll
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\refint\Paygate.Application.dll
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\Paygate.Application.pdb
+C:\Users\GS_ta\Documents\Unity\Gateonix\Paygate.Application\obj\Debug\net8.0\ref\Paygate.Application.dll

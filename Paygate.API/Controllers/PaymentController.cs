@@ -49,6 +49,26 @@ public class PaymentController : ControllerBase
     {
         return Ok(await _mediator.Send(command));
     }
+    [HttpGet("ok")]
+    public async Task<IActionResult> Initiate3DPayment([FromBody] Dictionary<string,string> command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+    [HttpGet("fail")]
+    public async Task<IActionResult> Initiate3DPayment2([FromBody] Dictionary<string, string> command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+    [HttpPost("ok")]
+    public async Task<IActionResult> Initiate3DPaymentPost([FromBody] Dictionary<string, string> command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+    [HttpPost("fail")]
+    public async Task<IActionResult> Initiate3DPaymentPost2([FromBody] Dictionary<string, string> command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
 
     [HttpPost("3d/initiate")]
     public async Task<IActionResult> Initiate3DPayment([FromBody] Initiate3DPaymentCommand command)
