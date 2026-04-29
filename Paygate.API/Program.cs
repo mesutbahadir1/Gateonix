@@ -1,3 +1,4 @@
+using System.Text;
 using MediatR;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
@@ -19,6 +20,7 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
+Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
 builder.Host.UseSerilog();
 
