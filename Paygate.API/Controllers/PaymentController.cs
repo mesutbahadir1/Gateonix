@@ -75,4 +75,12 @@ public class PaymentController : ControllerBase
     {
         return Ok(await _mediator.Send(command));
     }
+    
+    [HttpPost("3d/initiate/html")]
+    [Produces("text/html")]
+    public async Task<IActionResult> Initiate3DPaymentAsHtml([FromBody] Initiate3DPaymentCommand command)
+    {
+        var response = await _mediator.Send(command);
+        return Content(response.PaymentHtmlContent ?? "", "text/html; charset=utf-8");
+    }
 }

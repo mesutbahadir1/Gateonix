@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zsWRLs/69b0=",
+  "dgSpecHash": "siDWYaal62g=",
   "success": true,
   "projectFilePath": "/Users/mesut/Gateonix/Paygate.API/Paygate.API.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "/Users/mesut/.nuget/packages/microsoft.extensions.options/10.0.0/microsoft.extensions.options.10.0.0.nupkg.sha512",
     "/Users/mesut/.nuget/packages/microsoft.extensions.primitives/10.0.0/microsoft.extensions.primitives.10.0.0.nupkg.sha512",
     "/Users/mesut/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/Users/mesut/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/mesut/.nuget/packages/serilog/4.3.0/serilog.4.3.0.nupkg.sha512",
     "/Users/mesut/.nuget/packages/serilog.aspnetcore/10.0.0/serilog.aspnetcore.10.0.0.nupkg.sha512",
     "/Users/mesut/.nuget/packages/serilog.extensions.hosting/10.0.0/serilog.extensions.hosting.10.0.0.nupkg.sha512",

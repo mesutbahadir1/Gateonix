@@ -33,8 +33,11 @@ builder.Services.AddMediatR(typeof(Program).Assembly, typeof(IPaymentProvider).A
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.Configure<QnbPayOptions>(builder.Configuration.GetSection("QnbPay"));
+
 builder.Services.AddKeyedScoped<IPaymentProvider, HalkbankPaymentProvider>("Halkbank");
 builder.Services.AddKeyedScoped<IPaymentProvider, AkbankPaymentProvider>("Akbank");
+builder.Services.AddKeyedScoped<IPaymentProvider, QnbPayPaymentProvider>("QnbPay");
 builder.Services.AddScoped<IPaymentProviderFactory, PaymentProviderFactory>();
 
 var app = builder.Build();

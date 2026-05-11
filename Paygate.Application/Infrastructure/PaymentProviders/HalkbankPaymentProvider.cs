@@ -22,7 +22,7 @@ namespace Paygate.Application.Infrastructure.PaymentProviders
         public bool IsAvailable => true;
         public BankConfiguration Configuration = new BankConfiguration()
         {
-            ApiEndpoint = "https://entegrasyon.asseco-see.com.tr/fim/est3Dgate",
+            ApiEndpoint = "https://torus-stage-ziraat.asseco-see.com.tr/fim/est3Dgate",
             ClientId = "190100000",
             StoreKey = "123456"
         };
